@@ -1,0 +1,84 @@
+#logo{
+    width: 30px;
+    height: 30px;
+}
+.verde{
+    color: rgba(88, 208, 110, 1);
+}
+.rojo{
+    color: red;
+}
+#tabla{
+    display: inline-table;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+canvas{
+    margin: 0 auto;
+}
+body{
+    background-color:rgb(1, 3, 9);
+    color:rgb(236, 225, 233);
+    font-family: 'Courier New', Courier, monospace;
+}
+.boton{
+    border-radius: 1rem;
+    color: rgba(88, 208, 110, 1);
+    border-color: rgb(199, 194, 194);
+    border-width: 0.2rem;
+    background-color: black;
+    cursor: pointer;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;    
+}
+#descripcion-tokenlist{
+    margin-top: 2rem;
+}
+#grafico{
+    width: 100%;
+}
+.encabezado2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+}
+#tokenList{
+    cursor: pointer;
+}
+#img-graf{
+    width: 3rem;
+    margin-right: 2rem;
+}
+#div-graf{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+#div-graf button{
+    border-radius: 1rem;
+    color: rgba(88, 208, 110, 1);
+    border-color: rgb(199, 194, 194);
+    border-width: 0.2rem;
+    background-color: black;
+    cursor: pointer;
+    text-align: center;
+    margin: 1rem;
+}
+.info-p{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+hr{
+    border: none;
+    height: 0.1rem;
+    background-color: rgba(88, 208, 110, 1);
+}
